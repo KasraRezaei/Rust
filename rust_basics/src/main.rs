@@ -1,8 +1,9 @@
 fn main() {
     // muitable variable:
     let mut z = 5; // x is mutable and can be changed
-                   // immutable variable:
     let w = 5; // w is immutable and cannot be changed
+    let w = w + 1; // w is shadowing by a new variable 
+
 
     //integer types;
     let q: i32 = -5; // q is an signed integer 32-bit meaning it can hold both positive and negative values
